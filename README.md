@@ -1,10 +1,10 @@
 # Email Sender
-## Practice with Async Tasks, SMTP Servers and DDD Principles
+## Practice with Async Tasks, SMTP Servers 
 
 
 ### Description
 
-The objective of this project is to demonstrate in a practical way how the flow of a project with DDD (Domain Driven Development) works, as well as a way to use the SMTP (Simple Mail Transfer Protocol) protocol for sending emails.
+The objective of this project is to demonstrate in a practical way how the flow of a project with Clean Architecture works, as well as a way to use the SMTP (Simple Mail Transfer Protocol) protocol for sending emails.
 
 It is important to point out that with this project I do not intend to theoretically delve into any of the concepts presented, just to demonstrate their application. Subsequently, new projects will bring greater theoretical rigor. It is also worth mentioning that the project is not yet fully adapted to the principles of the concepts used for its development.
 
