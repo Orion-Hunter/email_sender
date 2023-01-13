@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "emailsender"
+version = "0.1.0"
+description = ""
+authors = ["Fabrício Silva Sales <fabricio.devbackend@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = {extras = ["dotenv"], version = "^1.10.4"}
+aiosmtplib = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^23.1a1", allow-prereleases = true}
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

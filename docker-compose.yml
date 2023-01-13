@@ -1,0 +1,11 @@
+version: "3.4"
+services:  
+  mailhog:
+    # for testing emails
+    image: mailhog/mailhog
+    restart: always
+    logging:
+      driver: "none" # disable saving logs
+    ports:
+      - 1025:1025 # smtp server
+      - 8025:8025
